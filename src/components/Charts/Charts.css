@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left {
+    padding-top: 20px;
+    min-width: 300px;
+}
+
+.checkbox,
+.date-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 50%;
+}
